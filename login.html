@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylelog.css">
+</head>
+<body>
+  <div class="main">
+  <table>
+    
+    <form action="">
+      <div class="continer">
+        <div class="logo">
+          <img class="imgs" src="C:\Users\nissy\OneDrive\Desktop\asstry\826070.png" alt="">
+        </div>
+        <div class="heading">
+          <h2><span>O</span>asis</h2>
+        </div>
+        <div class="de" >
+          <div class="user">
+          <label class="l" >Username :</label>
+          <input type="text" class="input" placeholder="Enter Username">
+        </div>
+
+        <div class="pass">
+          <label class="l" >Password :</label>
+          <input type="password" class="input p" placeholder="Enter password">
+        </div>
+
+        </div>
+
+      
+
+      <div>
+        <button class="log"><a href="index.html" class="lg" >Log in</a></button>
+        <a href="#">Forget password</a>
+      </div>
+      <div class="new">
+        <h3>Don't have an account?</h3>
+        <button class="register">Create new</button>
+      </div>
+    </div>
+    </form>
+  </table>
+</div>
+
+
+
+<script>
+
+var email=document.getElementById("email");
+var pswd=document.getElementById("pswd");
+ 
+function validate(){
+    if(email.value.trim()==''){
+        alert("email cannot be empty");
+        return false;
+    }
+    else if(pswd.value.trim()==''){
+        alert("pswd cannot be empty");
+        return false;
+    }
+
+    else if(pswd.value.length<= 5) {
+        alert("pwsd too short");
+        pswd.style.border="2px solid red";
+        return false;
+    }
+
+    else{
+        return true;
+    }
+} 
+
+
+</script>
+</body>
+</html>

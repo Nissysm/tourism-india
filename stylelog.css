@@ -1,0 +1,99 @@
+.main{
+    background:linear-gradient(black,#067D35,white);
+    
+}
+.continer{
+    background: linear-gradient(#067D35,white,black);
+    height: 600px;
+    width: 500px;
+    border-radius: 50px;
+    margin-left: 500px;
+    
+    
+}
+.lg{
+    text-decoration: none;
+    color: white;
+}
+    
+.logo .imgs{
+   margin-left: 200px;
+   margin-top: 50px;
+   width: 100px;
+   height: 100px;
+    
+}
+.heading h2{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 170px;
+    
+    
+}
+
+.heading h2 span{
+    color: #067D35;
+}
+
+
+
+ .l{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 30px;
+
+}
+.input{
+    border:2px solid green ;
+    height: 30px;
+    width: 250px;
+}
+.p{
+    margin-left: 7px;
+}
+
+.input:hover{
+    border: none;
+}
+.log{
+    margin-left: 170px;
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    background: green;
+    color: white;
+    font-size: 20px;
+}
+.log:hover{
+    border: 2px solid green;
+    background: white;
+    color: #067D35;
+    
+}
+
+.new h3{
+    color: white;
+    font-size: 25px;
+    margin-left: 120px;
+
+}
+.register{
+    margin-left: 170px;
+    
+    height: 30px;
+    width: 150px;
+    background: green;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.register:hover{
+    height: 35px;
+    width: 155px;
+    background: white;
+    color: green;
+    font-size: 25px;
+}

@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.row{
+    background:rgb(118, 189, 118);
+    height: 100px;
+
+}
+.col-sm-4{
+    background: olive;
+    display: flex;
+}
+
+ h2{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top:10px;
+    
+    
+}
+
+
+ h2 span{
+    color: #067D35;
+}
+
+.imgs{
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+} 
+
+h2:hover{
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 75px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top:10px;
+
+}
+h2 span:hover{
+    color: black;
+}
+
+.col-sm-9 h4{
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: 600px;
+    display: flex;
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+.col-sm-9 h4:hover{
+    color: aliceblue;
+}
+
+ .navbar{
+    background: #b0ecbb;
+ }
+
+ul{
+    
+    width: 250px;
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    background: #067D35;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    font-size: 25px;
+    margin: 5px;
+    font-weight:bolder;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+li:hover{
+    background: whitesmoke;
+    border: 2px solid black;
+    color: #067D35;
+}
+.deat{
+    background: thistle;
+}
